@@ -1,0 +1,137 @@
+body{
+    background-image: url('space.jpg');
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family:"Lucida Console" ;
+}
+
+.title{
+    padding-top: 2%;
+    height: 160px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(#2A3350,#1B368C,#2A3350);
+    border-radius: 150px;
+    box-shadow: 10px 5px 5px 10px #09122E;
+}
+.title h1{
+    
+    color: azure;
+}
+.description p{
+    color: azure;
+    font-size: 2em;
+}
+.login input{
+    margin-left: 20%;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    display: block;
+    font-size: 1.5em;
+}
+.login label{
+    margin-top: 20%;
+    margin-left: 20%;
+    
+    color:azure;
+    font-size: 1.5em;
+}
+.login{
+  
+  
+    height: 250px;
+    width: 250px;
+    background: black ;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px 10px #09122E;
+    
+}
+.contain{
+    display: block;
+}
+
+.enterbutton{
+    margin-top: 10px;
+    height: 150px !important;
+    width: 150px;
+    
+}
+.prompt{
+    border-radius: 50px;
+    background: linear-gradient(#2A3350,#1B368C,#2A3350);
+    display: none;
+    height: 150px;
+    width: 150px;
+    box-shadow: 10px 10px 10px 10px #09122E;
+}
+.visible{
+    position: absolute;
+    z-index: 100;
+   top: 200px;
+    color: azure;
+    border-radius: 50px;
+    background: linear-gradient(#2A3350,#1B368C,#2A3350);
+   padding: 2%; 
+    height: 50px;
+    width: 250px;
+    box-shadow: 10px 10px 10px 10px #09122E;
+    display: visible;
+}
+.prompt p{
+    margin-top: 25px;
+}
+@media screen and (min-width:900px){
+    body{
+        background-image: url('space.jpg');
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .login{
+  
+  
+        height: 250px;
+        width: 250px;
+        background: black ;
+        border-radius: 50%;
+        box-shadow: 10px 10px 10px 10px #09122E;
+        
+    }
+    .contain{
+        display: block;
+    }
+    .title{
+        height: 80px;
+    }
+}
+@media screen and (min-width:1200px){
+    body{
+        background-image: url('space.jpg');
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .login{
+  padding:10%;
+        
+        height: 450px;
+        width: 450px;
+        background: black ;
+        border-radius: 50%;
+        box-shadow: 10px 10px 10px 10px #09122E;
+        
+    }
+    .contain{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .login input{
+        width: 300px;
+    }
+    .login label{
+       
+    }
+    .description p{
+        width: 450px;
+    }
+}

@@ -1,0 +1,153 @@
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url('space.jpg');
+    font-family:"Lucida Console" ;
+}
+.header ul{
+    padding-left: 0px;
+ }
+.header a{
+    height: 100%;
+    width: 100%;
+}
+.header li{
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    list-style-type: none;
+    background: linear-gradient(#2A3350,#1B368C,#2A3350);
+    border-radius: 10px;
+    color: azure;
+   
+
+}
+.header li:hover{
+    box-shadow:5px 5px 5px 5px azure;
+}
+.header h3{
+    
+    color: azure;
+}
+
+.subheader{
+    text-align: center;
+}
+.subheader h1{
+    color: azure;
+}
+.pastehere{
+    text-align: center;
+    
+}
+#searchPeople{
+   
+    font-size: 1.3em;
+}
+.search2 label{
+    color: azure;
+    font-size: 1.5em;
+}
+.search2{
+    text-align: center;
+}
+
+.blok{
+    
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background:linear-gradient(#0D7FCF,#092949,  #0D7FCF);
+    margin-bottom: 15px;
+    
+    border-radius: 140px;
+    box-shadow:10px 10px 10px #0440FD;
+}
+.blok img{
+    margin-top: 25px;
+    display: inline;
+    height:100px;
+    width: 100px;
+    border-radius: 40px;
+    border: 5px solid #CFCFF6;
+}
+.blok p{
+    color: azure;
+    font-size: 1.5em;
+}
+.blok h3{
+    color: azure;
+    font-size: 1.5em;
+}
+@media screen and (min-width:900px){
+    .blok img{
+        margin-top: 25px;
+        display: inline;
+        height:150px;
+        width: 150px;
+        border-radius: 40px;
+        border: 5px solid #CFCFF6;
+    } 
+    .header ul{
+        padding-left: 25px;
+     } 
+    .header{
+        width: 100%;
+        height: 80px;
+        background: linear-gradient(#2A3350,#1B368C,#2A3350);
+        border-radius: 50px;
+        box-shadow: 5px 5px 5px 5px #2A3350;
+    }
+    .header ul{
+        display: flex;
+        justify-content: left;
+    }
+    .header li{
+        width: 80px;
+        height: 30px;
+        list-style-type: none;
+        margin-right:30px;
+       margin-top:2px ;
+
+    }
+    
+    .header h3{
+      
+        text-align: center;
+        width: 100px;
+        height: 40px;
+        color: azure;
+        border-radius: 50%;
+        background:#2A3350;
+        text-decoration: none;
+        border: 2px solid azure;
+        
+    }
+    .header h3:hover{
+        background-color: #0D6ECF;
+        box-shadow: 3px 3px 3px 3px azure;
+    }
+    .header li:hover{
+        box-shadow:none;
+    }
+}
+@media screen and (min-width:1600px){
+    .blok img{
+        margin-top: 25px;
+        display: inline;
+        height:200px;
+        width: 200px;
+        border-radius: 40px;
+        border: 5px solid #CFCFF6;
+    }  
+    .header li:hover{
+        box-shadow:none;
+    }
+    .header ul{
+        padding-left: 25px;
+     }
+}

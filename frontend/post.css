@@ -1,0 +1,266 @@
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url('space.jpg');
+    font-family:"Lucida Console" ;
+}
+.header ul{
+   padding-left: 0px;
+}
+.header a{
+    height: 100%;
+    width: 100%;
+}
+.header li{
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    list-style-type: none;
+    background: linear-gradient(#2A3350,#1B368C,#2A3350);
+    border-radius: 10px;
+    color: azure;
+   
+
+}
+.header li:hover{
+    box-shadow:5px 5px 5px 5px azure;
+}
+.header h3{
+    color: azure;
+}
+
+.subheader{
+    text-align: center;
+}
+.subheader h1{
+    color: azure;
+}
+.searchbar{
+    width: 100%;
+    text-align: center;
+}
+.searchbar label{
+color: azure;
+font-size: 1.3em;
+}
+.searchbar select{
+    width: 300px;
+    height: 40px;
+    font-size: 1.3em;
+}
+.pastehere{
+    width: 100%;
+}
+.smallBlok h4{
+    color: azure;
+}
+.smallBlok p{
+    color: azure;
+}
+.smallBlok h1{
+    color: azure;
+}
+.smallBlok{
+    margin-top: 15px;
+    border-radius: 20px;
+    padding:1%;
+    background: linear-gradient(#2A3350,#1B368C,#2A3350);
+}
+
+.videoplayer{
+    height: 250px;
+    width: 350px;
+}
+.smallImage{
+    height: 60px;
+    width: 60px;
+}
+
+@media screen and (min-width:900px){
+    .body{
+    padding-left: 0%;
+    padding-right: 0%;
+
+    }
+    .header ul{
+        padding-left: 25px;
+     }
+    .header{
+        width: 100%;
+        height: 80px;
+        background: linear-gradient(#2A3350,#1B368C,#2A3350);
+        border-radius: 50px;
+        box-shadow: 5px 5px 5px 5px #2A3350;
+    }
+    .header ul{
+        display: flex;
+        justify-content: left;
+    }
+    .header li{
+        width: 80px;
+        height: 30px;
+        list-style-type: none;
+        margin-right:30px;
+       
+
+    }
+    
+    .header h3{
+       
+        text-align: center;
+        width: 100px;
+        height: 40px;
+        color: azure;
+        border-radius: 50%;
+        background:#2A3350;
+        text-decoration: none;
+        border: 2px solid azure;
+        
+    }
+    .header h3:hover{
+        background-color: #0D6ECF;
+        box-shadow: 3px 3px 3px 3px azure;
+    }
+    .header li:hover{
+        box-shadow:none;
+    }
+    .smallBlokImage{
+        height: 250px;
+        width: 500px;
+    }
+}
+.videoplayer{
+    height: 300px;
+    width: 450px;
+}
+.smallImage{
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+}
+
+@media screen and (min-width:1600px){
+    .header ul{
+        padding-left: 25px;
+     }
+    .header{
+        width: 100%;
+        height: 80px;
+        background: linear-gradient(#2A3350,#1B368C,#2A3350);
+        border-radius: 50px;
+        box-shadow: 5px 5px 5px 5px #2A3350;
+    }
+    .header ul{
+        display: flex;
+        justify-content: left;
+    }
+    .header li{
+        width: 80px;
+        height: 30px;
+        list-style-type: none;
+        margin-right:30px;
+       
+
+    }
+    
+    .header h3{
+       
+        text-align: center;
+        width: 100px;
+        height: 40px;
+        color: azure;
+        border-radius: 50%;
+        background:#2A3350;
+        text-decoration: none;
+        border: 2px solid azure;
+        
+    }
+    .header h3:hover{
+        background-color: #0D6ECF;
+        box-shadow: 3px 3px 3px 3px azure;
+    }
+    .header li:hover{
+        box-shadow:none;
+    }
+    .body{
+        padding-left: 10%;
+        padding-right: 10%;
+    
+        }
+   .smallBlokImage{
+        height: 350px;
+        width: 700px;
+    }
+    .videoplayer{
+        height: 350px;
+        width: 550px;
+    }
+    .smallImage{
+        height: 60px;
+        width: 60px;
+    }
+}
+@media screen and (min-width:1900px){
+    .header ul{
+        padding-left: 25px;
+     }
+    .header{
+        width: 100%;
+        height: 80px;
+        background: linear-gradient(#2A3350,#1B368C,#2A3350);
+        border-radius: 50px;
+        box-shadow: 5px 5px 5px 5px #2A3350;
+    }
+    .header ul{
+        display: flex;
+        justify-content: left;
+    }
+    .header li{
+        width: 80px;
+        height: 30px;
+        list-style-type: none;
+        margin-right:30px;
+       
+
+    }
+    
+    .header h3{
+       
+        text-align: center;
+        width: 100px;
+        height: 40px;
+        color: azure;
+        border-radius: 50%;
+        background:#2A3350;
+        text-decoration: none;
+        border: 2px solid azure;
+        
+    }
+    .header h3:hover{
+        background-color: #0D6ECF;
+        box-shadow: 3px 3px 3px 3px azure;
+    }
+    .header li:hover{
+        box-shadow:none;
+    }
+    .body{
+        padding-left: 10%;
+        padding-right: 10%;
+    
+        }
+    .smallBlokImage{
+        height: 450px;
+        width: 800px;
+    }
+    .videoplayer{
+        height: 450px;
+        width: 650px;
+    }
+    .smallImage{
+        height: 60px;
+        width: 60px;
+    }
+}
